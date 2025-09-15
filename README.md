@@ -1,14 +1,19 @@
 # Luz & Cena
 
-Landing page de um site fictício de um cinema, que exibe os filmes em cartaz e que ainda vão estrear permitindo selecionar localidade, buscar filmes pelo título, se inscrever para receber informações e muito mais.
+Landing page de um site fictício de um cinema, que exibe os filmes em cartaz e que ainda vão estrear permitindo selecionar localidade, buscar filmes pelo título e se inscrever para receber informações. Desenvolvi o projeto durante meus estudos de React e me ajudou principalmente a praticar tipagem com TypeScript.
+
+## Teste o projeto [aqui]()
+
+<p align="center">
+  <img src="./img1.png" alt="Tela desktop" width="70%" style="vertical-align: top; margin-right: 20px;" />
+</p>
 
 ## 🔨 Funcionalidades do projeto
 
-A página possui um cabeçalho, um banner, uma lista de filmes, uma seção de newsletter e um rodapé. Os filmes são retornados de uma API's local usando o JSON server. Possui a funcionalidade de filtrar os filmes no campo de busca por título.
+A página possui um cabeçalho, um banner, uma lista de filmes, uma seção de newsletter e um rodapé. Os filmes são retornados de uma API local usando o JSON server. Possui a funcionalidade de filtrar os filmes no campo de busca por título.
 
 <p align="center">
-  <img src="./img1.png" alt="Tela desktop" width="50%" style="vertical-align: top; margin-right: 20px;" />
-  <img src="./img2.png" alt="Tela desktop" width="50%" style="vertical-align: top; margin-right: 20px;"/>
+  <img src="./img2.png" alt="Tela desktop" width="70%" style="vertical-align: top; margin-right: 20px;"/>
 </p>
 
 ## ✔️ Técnicas e tecnologias utilizadas
@@ -23,19 +28,22 @@ As técnicas e tecnologias utilizadas pra isso são:
 - `react-icons`: biblioteca de ícones do React
 - `CSS modules`: para escrever css no React
 
-## 📁 Acesso ao projeto
-
-Você pode [acessar o código fonte do projeto inicial](https://github.com/NeiltonSeguins/4472-react-ts) ou [baixá-lo](https://github.com/NeiltonSeguins/4472-react-ts/archive/refs/heads/aula-01.zip). Se você quiser acessar o figma do projeto, só [clicar neste link](https://www.figma.com/community/file/1464265240934231932).
-
 ## 🛠️ Abrir e rodar o projeto
 
 Após baixar o projeto, você pode abri-lo no Visual Studio Code. Para isso, siga os passos abaixo:
 
 1. No menu superior do VS Code, clique em:
-   * **File > Open Folder** (ou uma opção similar).
+   - **File > Open Folder** (ou uma opção similar).
 2. Procure o local onde o projeto foi salvo e selecione a pasta (se o projeto foi baixado como um arquivo ZIP, será necessário extraí-lo antes).
 3. Clique em **OK**.
+4. Abra o terminal (Ctrl + J) e inicie a aplicação com 
 
-## 📚 Mais informações do curso
+```bash
+npm run dev
+``` 
 
-Gostou do projeto e quer conhecer mais? Você pode [acessar o curso](https://cursos.alura.com.br) que desenvolve o projeto desde o começo!
+5. Abra outro terminal (Ctrl + Shift + ') e inicie a API fake dos filmes com
+
+```bash
+npm run server
+```
