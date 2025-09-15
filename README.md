@@ -45,3 +45,9 @@ npm run dev
 ```bash
 npm run server
 ```
+
+## Feito por:
+
+### LuizEsb
+
+### [Linkedin](https://www.linkedin.com/in/luizesb)
