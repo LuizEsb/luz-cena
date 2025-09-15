@@ -2,8 +2,6 @@
 
 Landing page de um site fictício de um cinema, que exibe os filmes em cartaz e que ainda vão estrear permitindo selecionar localidade, buscar filmes pelo título e se inscrever para receber informações. Desenvolvi o projeto durante meus estudos de React e me ajudou principalmente a praticar tipagem com TypeScript.
 
-## Teste o projeto [aqui]()
-
 <p align="center">
   <img src="./img1.png" alt="Tela desktop" width="70%" style="vertical-align: top; margin-right: 20px;" />
 </p>
