@@ -46,6 +46,8 @@ npm run dev
 npm run server
 ```
 
+![Imagem Newsletter e Footer](https://i.imgur.com/76AJJaP.png)
+
 ## Feito por:
 
 ### LuizEsb
